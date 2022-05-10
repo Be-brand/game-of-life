@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5288c8-f81f-41dc-97bd-68c7f870db14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test/lib/game_of_life/helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lib/game_of_life/size_1x1_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lib/game_of_life/size_2x2_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/game_of_life.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/game_of_life.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lib/game_of_life_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/lib/game_of_life_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/game_of_life_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +52,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/eden/repos/katas/game-of-life",
+    "last_opened_file_path": "/home/eden/repos/katas/game-of-life/test/lib/game_of_life",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true"
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/lib/game_of_life" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/lib/game_of_life" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
@@ -175,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652192942386</updated>
-      <workItem from="1652192944041" duration="1371000" />
+      <workItem from="1652192944041" duration="7006000" />
     </task>
     <servers />
   </component>
@@ -197,7 +205,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/game_of_life@test__game_of_life.rcov" NAME="test: game-of-life Coverage Results" MODIFIED="1652194314917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game-of-life" />
+    <SUITE FILE_PATH="coverage/game_of_life@test__game_of_life.rcov" NAME="test: game-of-life Coverage Results" MODIFIED="1652199946220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game-of-life" />
     <SUITE FILE_PATH="coverage/game_of_life@spec__game_of_life.rcov" NAME="spec: game-of-life Coverage Results" MODIFIED="1652193692536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game-of-life" />
   </component>
 </project>
