@@ -12,9 +12,17 @@ main
       - *2*
       - **3**
 
-  div data={ controller: 'hello' } Test -- should be replaced by controller
-  div data={ controller: 'hello-hello' } Test -- should be replaced by controller
+  ul
+    li
+      p Coffee
+      div data={ controller: 'hello' } Test -- should be replaced by controller
+    li
+      p Plain JS
+      div data={ controller: 'hello-hello' } Test -- should be replaced by controller
 
 sass:
   h2
     color: lightsalmon
+
+coffee:
+  console.log 'test?'
