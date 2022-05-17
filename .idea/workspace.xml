@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5288c8-f81f-41dc-97bd-68c7f870db14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/game_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/game_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/game/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/game_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lib/game_of_life/size_3x3_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/game.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/controllers/hello_controller.js.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/controllers/hello_hello_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/game-of-life.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game-of-life.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/game_of_life.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/game_of_life.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lib/game_of_life/helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/lib/game_of_life/helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lib/game_of_life/size_1x1_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/lib/game_of_life/size_1x1_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lib/game_of_life/size_2x2_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/lib/game_of_life/size_2x2_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/game_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/game_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/game_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/game_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/controllers/hello_controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/index.slim.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/game/index.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,38 +61,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultRubyCreateTestTemplate&quot;: &quot;Minitest&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/eden/repos/katas/game-of-life/test/lib/game_of_life&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultRubyCreateTestTemplate": "Minitest",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.0.0",
+    "javascript.nodejs.core.library.typings.version": "17.0.34",
+    "last_opened_file_path": "/home/eden/repos/katas/game-of-life/app/javascript/controllers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/eden/n/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "settings.nodejs"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;ruby&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "ruby"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/javascript/controllers" />
       <recent name="$PROJECT_DIR$/test/lib/game_of_life" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/lib/game_of_life" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="bundle install" />
+    </option>
   </component>
   <component name="RunManager" selected="Rake.test: game-of-life">
     <configuration name="Development: game-of-life" type="RailsRunConfigurationType" factoryName="Rails">
@@ -246,7 +259,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/game_of_life@Development__game_of_life.rcov" NAME="Development: game-of-life Coverage Results" MODIFIED="1652782577426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game-of-life" />
+    <SUITE FILE_PATH="coverage/game_of_life@Development__game_of_life.rcov" NAME="Development: game-of-life Coverage Results" MODIFIED="1652790127660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game-of-life" />
     <SUITE FILE_PATH="coverage/game_of_life@test__game_of_life.rcov" NAME="test: game-of-life Coverage Results" MODIFIED="1652284120994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game-of-life" />
     <SUITE FILE_PATH="coverage/game_of_life@spec__game_of_life.rcov" NAME="spec: game-of-life Coverage Results" MODIFIED="1652193692536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game-of-life" />
   </component>

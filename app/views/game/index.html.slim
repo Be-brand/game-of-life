@@ -1,0 +1,20 @@
+h1 Test
+h2 Smaller test
+main
+  p So, you wanna game life, huh?
+  ol
+    - @items.each do |item|
+      li Item ##{item}
+
+  div
+    markdown:
+      - 1
+      - *2*
+      - **3**
+
+  div data={ controller: 'hello' } Test -- should be replaced by controller
+  div data={ controller: 'hello-hello' } Test -- should be replaced by controller
+
+sass:
+  h2
+    color: lightsalmon
