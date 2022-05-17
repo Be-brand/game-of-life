@@ -5,30 +5,25 @@ module GameOfLife
     size 1
 
     test 'cell remains dead' do
-      assert_equal [[ 0 ]], @game.board.raw
-      assert_equal @game.board.raw, @game.next.board.raw
+      assert_board [[ 0 ]]
+      assert_remains_unchanged
     end
 
-    test 'cell remains live' do
-      enliven_cell!
-      assert_equal [[ 1 ]], @game.board.raw
-      assert_equal @game.board.raw, @game.next.board.raw
-    end
-
-    test 'cell can be killed' do
-      enliven_cell!
-      kill_cell!
-      # TODO: board== works,
-      assert_equal [[ 0 ]], @game.board.raw
+    test 'live cell dies' do
+      draw_board! do
+        enliven! x: 0, y: 0
+      end
+      assert_board [[ 1 ]]
+      assert_next_board [[ 0 ]]
     end
 
     protected
       def enliven_cell!
-        super x: 1, y: 1
+        super x: 0, y: 0
       end
 
       def kill_cell!
-        super x: 1, y: 1
+        super x: 0, y: 0
       end
   end
 end
